@@ -1,0 +1,817 @@
+{
+  "OS-0001": [
+    {
+      "id": "OS-0001-item-1",
+      "label": "Testar integridade da fonte",
+      "checked": true,
+      "required": true,
+      "notes": "Fonte de 19V testada com multímetro, estável."
+    },
+    {
+      "id": "OS-0001-item-2",
+      "label": "Testar bateria",
+      "checked": true,
+      "required": true,
+      "notes": "Bateria aprovada em teste de carga"
+    },
+    {
+      "id": "OS-0001-item-3",
+      "label": "Verificar memória RAM",
+      "checked": true,
+      "required": false,
+      "notes": "16GB DDR4 OK"
+    }
+  ],
+  "OS-0008": [
+    {
+      "id": "OS-0008-tmpl-0-1792352802768",
+      "label": "Verificar fonte de alimentação e cabos",
+      "checked": true,
+      "icon": "🔌",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0008-tmpl-1-1792352802768",
+      "label": "Testar funcionamento básico do equipamento",
+      "checked": true,
+      "icon": "⚙️",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0008-tmpl-2-1792352802768",
+      "label": "Verificar componentes físicos e avarias",
+      "checked": true,
+      "icon": "🔧",
+      "required": false,
+      "notes": ""
+    },
+    {
+      "id": "OS-0008-tmpl-3-1792352802768",
+      "label": "Testar conectividade / comunicação",
+      "checked": true,
+      "icon": "🌐",
+      "required": false,
+      "notes": ""
+    }
+  ],
+  "OS-0002": [
+    {
+      "id": "OS-0002-chk-0",
+      "label": "Verificar redundância de fontes de alimentação",
+      "checked": true,
+      "icon": "🔌",
+      "required": true,
+      "notes": "Fonte redundante A e B testadas em 220V sem oscilação"
+    },
+    {
+      "id": "OS-0002-chk-1",
+      "label": "Verificar ventoinhas / coolers e temperatura",
+      "checked": true,
+      "icon": "🌀",
+      "required": true,
+      "notes": "Coolers limpos e pasta térmica trocada"
+    },
+    {
+      "id": "OS-0002-chk-2",
+      "label": "Testar discos em arranjo RAID / SSD",
+      "checked": false,
+      "icon": "💾",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0002-chk-3",
+      "label": "Verificar erros de memória ECC",
+      "checked": false,
+      "icon": "🧠",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0002-chk-4",
+      "label": "Verificar logs do SO e hipervisor",
+      "checked": false,
+      "icon": "🔄",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0002-chk-5",
+      "label": "Testar interfaces de rede (NIC Teaming/iDRAC)",
+      "checked": false,
+      "icon": "🌐",
+      "required": false,
+      "notes": ""
+    },
+    {
+      "id": "OS-0002-chk-6",
+      "label": "Verificar rotinas de backup ativo",
+      "checked": false,
+      "icon": "💾",
+      "required": false,
+      "notes": ""
+    }
+  ],
+  "OS-0003": [
+    {
+      "id": "OS-0003-chk-0",
+      "label": "Verificar fonte de alimentação / PoE",
+      "checked": false,
+      "icon": "🔌",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0003-chk-1",
+      "label": "Testar portas RJ45 / SFP",
+      "checked": false,
+      "icon": "🔌",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0003-chk-2",
+      "label": "Verificar cabeamento estruturado",
+      "checked": false,
+      "icon": "🔌",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0003-chk-3",
+      "label": "Testar throughput e latência de rede",
+      "checked": false,
+      "icon": "🌐",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0003-chk-4",
+      "label": "Verificar firmware e configurações de VLAN",
+      "checked": false,
+      "icon": "⚙️",
+      "required": false,
+      "notes": ""
+    },
+    {
+      "id": "OS-0003-chk-5",
+      "label": "Testar Wi-Fi e SSIDs corporativos",
+      "checked": false,
+      "icon": "📶",
+      "required": false,
+      "notes": ""
+    }
+  ],
+  "OS-0004": [
+    {
+      "id": "OS-0004-chk-0",
+      "label": "Verificar cabo de alimentação e fusível",
+      "checked": false,
+      "icon": "🔌",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0004-chk-1",
+      "label": "Verificar cabo USB / Comunicação de Rede",
+      "checked": false,
+      "icon": "🔌",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0004-chk-2",
+      "label": "Testar impressão de página de teste",
+      "checked": false,
+      "icon": "🖨️",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0004-chk-3",
+      "label": "Verificar nível de toner / cartucho de tinta",
+      "checked": false,
+      "icon": "💧",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0004-chk-4",
+      "label": "Limpeza de cabeçote e roletes de tracionamento",
+      "checked": false,
+      "icon": "🧹",
+      "required": false,
+      "notes": ""
+    },
+    {
+      "id": "OS-0004-chk-5",
+      "label": "Verificar sensores e bandeja de papel",
+      "checked": false,
+      "icon": "📄",
+      "required": false,
+      "notes": ""
+    },
+    {
+      "id": "OS-0004-chk-6",
+      "label": "Testar scanner / Digitalização",
+      "checked": false,
+      "icon": "📷",
+      "required": false,
+      "notes": ""
+    },
+    {
+      "id": "OS-0004-chk-7",
+      "label": "Verificar drivers instalados no cliente",
+      "checked": false,
+      "icon": "🔄",
+      "required": false,
+      "notes": ""
+    }
+  ],
+  "OS-0005": [
+    {
+      "id": "OS-0005-chk-0",
+      "label": "Verificar fonte de alimentação / PoE",
+      "checked": true,
+      "icon": "🔌",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0005-chk-1",
+      "label": "Testar portas RJ45 / SFP",
+      "checked": true,
+      "icon": "🔌",
+      "required": true,
+      "notes": "Rj45 OK"
+    },
+    {
+      "id": "OS-0005-chk-2",
+      "label": "Verificar cabeamento estruturado",
+      "checked": false,
+      "icon": "🔌",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0005-chk-3",
+      "label": "Testar throughput e latência de rede",
+      "checked": false,
+      "icon": "🌐",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0005-chk-4",
+      "label": "Verificar firmware e configurações de VLAN",
+      "checked": false,
+      "icon": "⚙️",
+      "required": false,
+      "notes": ""
+    },
+    {
+      "id": "OS-0005-chk-5",
+      "label": "Testar Wi-Fi e SSIDs corporativos",
+      "checked": false,
+      "icon": "📶",
+      "required": false,
+      "notes": ""
+    }
+  ],
+  "OS-0006": [
+    {
+      "id": "OS-0006-chk-0",
+      "label": "Verificar fonte de alimentação e cabos",
+      "checked": false,
+      "icon": "🔌",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0006-chk-1",
+      "label": "Testar funcionamento básico do equipamento",
+      "checked": false,
+      "icon": "⚙️",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0006-chk-2",
+      "label": "Verificar componentes físicos e avarias",
+      "checked": false,
+      "icon": "🔧",
+      "required": false,
+      "notes": ""
+    },
+    {
+      "id": "OS-0006-chk-3",
+      "label": "Testar conectividade / comunicação",
+      "checked": false,
+      "icon": "🌐",
+      "required": false,
+      "notes": ""
+    }
+  ],
+  "OS-0007": [
+    {
+      "id": "OS-0007-chk-0",
+      "label": "Verificar fonte de alimentação e cabos",
+      "checked": false,
+      "icon": "🔌",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0007-chk-1",
+      "label": "Testar funcionamento básico do equipamento",
+      "checked": false,
+      "icon": "⚙️",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0007-chk-2",
+      "label": "Verificar componentes físicos e avarias",
+      "checked": false,
+      "icon": "🔧",
+      "required": false,
+      "notes": ""
+    },
+    {
+      "id": "OS-0007-chk-3",
+      "label": "Testar conectividade / comunicação",
+      "checked": false,
+      "icon": "🌐",
+      "required": false,
+      "notes": ""
+    }
+  ],
+  "OS-0009": [
+    {
+      "id": "OS-0009-chk-0",
+      "label": "Verificar fonte de alimentação / carregador",
+      "checked": false,
+      "icon": "🔌",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0009-chk-1",
+      "label": "Testar saúde da bateria",
+      "checked": false,
+      "icon": "🔋",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0009-chk-2",
+      "label": "Verificar memória RAM",
+      "checked": false,
+      "icon": "🧠",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0009-chk-3",
+      "label": "Testar HD/SSD e integridade S.M.A.R.T.",
+      "checked": false,
+      "icon": "💾",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0009-chk-4",
+      "label": "Verificar tela e cabo flat",
+      "checked": false,
+      "icon": "🖥️",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0009-chk-5",
+      "label": "Testar todas as teclas do teclado",
+      "checked": false,
+      "icon": "⌨️",
+      "required": false,
+      "notes": ""
+    },
+    {
+      "id": "OS-0009-chk-6",
+      "label": "Testar touchpad e gestos",
+      "checked": false,
+      "icon": "🖱️",
+      "required": false,
+      "notes": ""
+    },
+    {
+      "id": "OS-0009-chk-7",
+      "label": "Verificar portas USB e HDMI",
+      "checked": false,
+      "icon": "🔌",
+      "required": false,
+      "notes": ""
+    },
+    {
+      "id": "OS-0009-chk-8",
+      "label": "Testar conectividade Wi-Fi e Bluetooth",
+      "checked": false,
+      "icon": "📶",
+      "required": false,
+      "notes": ""
+    },
+    {
+      "id": "OS-0009-chk-9",
+      "label": "Verificar ativação e updates do SO",
+      "checked": false,
+      "icon": "🔄",
+      "required": false,
+      "notes": ""
+    }
+  ],
+  "OS-0010": [
+    {
+      "id": "OS-0010-chk-0",
+      "label": "Verificar redundância de fontes de alimentação",
+      "checked": false,
+      "icon": "🔌",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0010-chk-1",
+      "label": "Verificar ventoinhas / coolers e temperatura",
+      "checked": false,
+      "icon": "🌀",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0010-chk-2",
+      "label": "Testar discos em arranjo RAID / SSD",
+      "checked": false,
+      "icon": "💾",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0010-chk-3",
+      "label": "Verificar erros de memória ECC",
+      "checked": false,
+      "icon": "🧠",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0010-chk-4",
+      "label": "Verificar logs do SO e hipervisor",
+      "checked": false,
+      "icon": "🔄",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0010-chk-5",
+      "label": "Testar interfaces de rede (NIC Teaming/iDRAC)",
+      "checked": false,
+      "icon": "🌐",
+      "required": false,
+      "notes": ""
+    },
+    {
+      "id": "OS-0010-chk-6",
+      "label": "Verificar rotinas de backup ativo",
+      "checked": false,
+      "icon": "💾",
+      "required": false,
+      "notes": ""
+    }
+  ],
+  "OS-0011": [
+    {
+      "id": "OS-0011-chk-0",
+      "label": "Verificar fonte de alimentação e cabos",
+      "checked": false,
+      "icon": "🔌",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0011-chk-1",
+      "label": "Testar funcionamento básico do equipamento",
+      "checked": false,
+      "icon": "⚙️",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0011-chk-2",
+      "label": "Verificar componentes físicos e avarias",
+      "checked": false,
+      "icon": "🔧",
+      "required": false,
+      "notes": ""
+    },
+    {
+      "id": "OS-0011-chk-3",
+      "label": "Testar conectividade / comunicação",
+      "checked": false,
+      "icon": "🌐",
+      "required": false,
+      "notes": ""
+    }
+  ],
+  "OS-0012": [
+    {
+      "id": "OS-0012-chk-0",
+      "label": "Verificar fonte de alimentação e cabos",
+      "checked": false,
+      "icon": "🔌",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0012-chk-1",
+      "label": "Testar funcionamento básico do equipamento",
+      "checked": false,
+      "icon": "⚙️",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0012-chk-2",
+      "label": "Verificar componentes físicos e avarias",
+      "checked": false,
+      "icon": "🔧",
+      "required": false,
+      "notes": ""
+    },
+    {
+      "id": "OS-0012-chk-3",
+      "label": "Testar conectividade / comunicação",
+      "checked": false,
+      "icon": "🌐",
+      "required": false,
+      "notes": ""
+    }
+  ],
+  "OS-0013": [
+    {
+      "id": "OS-0013-chk-0",
+      "label": "Verificar fonte de alimentação e cabos",
+      "checked": false,
+      "icon": "🔌",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0013-chk-1",
+      "label": "Testar funcionamento básico do equipamento",
+      "checked": false,
+      "icon": "⚙️",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0013-chk-2",
+      "label": "Verificar componentes físicos e avarias",
+      "checked": false,
+      "icon": "🔧",
+      "required": false,
+      "notes": ""
+    },
+    {
+      "id": "OS-0013-chk-3",
+      "label": "Testar conectividade / comunicação",
+      "checked": false,
+      "icon": "🌐",
+      "required": false,
+      "notes": ""
+    }
+  ],
+  "OS-0014": [
+    {
+      "id": "chk-1",
+      "label": "Fonte de alimentação testada",
+      "checked": true,
+      "required": false,
+      "notes": "OK 19.5V"
+    },
+    {
+      "id": "chk-2",
+      "label": "Cooler desobstruído",
+      "checked": true,
+      "required": false,
+      "notes": "OK silencioso"
+    }
+  ],
+  "OS-0015": [
+    {
+      "id": "OS-0015-chk-0",
+      "label": "Verificar redundância de fontes de alimentação",
+      "checked": true,
+      "icon": "🔌",
+      "required": true,
+      "notes": "Fonte redundante testada em failover com corte do cabo A"
+    },
+    {
+      "id": "OS-0015-chk-1",
+      "label": "Verificar ventoinhas / coolers e temperatura",
+      "checked": false,
+      "icon": "🌀",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0015-chk-2",
+      "label": "Testar discos em arranjo RAID / SSD",
+      "checked": false,
+      "icon": "💾",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0015-chk-3",
+      "label": "Verificar erros de memória ECC",
+      "checked": false,
+      "icon": "🧠",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0015-chk-4",
+      "label": "Verificar logs do SO e hipervisor",
+      "checked": false,
+      "icon": "🔄",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0015-chk-5",
+      "label": "Testar interfaces de rede (NIC Teaming/iDRAC)",
+      "checked": false,
+      "icon": "🌐",
+      "required": false,
+      "notes": ""
+    },
+    {
+      "id": "OS-0015-chk-6",
+      "label": "Verificar rotinas de backup ativo",
+      "checked": false,
+      "icon": "💾",
+      "required": false,
+      "notes": ""
+    }
+  ],
+  "OS-0016": [
+    {
+      "id": "OS-0016-chk-0",
+      "label": "Verificar fonte de alimentação / PoE",
+      "checked": false,
+      "icon": "🔌",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0016-chk-1",
+      "label": "Testar portas RJ45 / SFP",
+      "checked": false,
+      "icon": "🔌",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0016-chk-2",
+      "label": "Verificar cabeamento estruturado",
+      "checked": false,
+      "icon": "🔌",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0016-chk-3",
+      "label": "Testar throughput e latência de rede",
+      "checked": false,
+      "icon": "🌐",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0016-chk-4",
+      "label": "Verificar firmware e configurações de VLAN",
+      "checked": false,
+      "icon": "⚙️",
+      "required": false,
+      "notes": ""
+    },
+    {
+      "id": "OS-0016-chk-5",
+      "label": "Testar Wi-Fi e SSIDs corporativos",
+      "checked": false,
+      "icon": "📶",
+      "required": false,
+      "notes": ""
+    }
+  ],
+  "OS-0017": [
+    {
+      "id": "OS-0017-chk-0",
+      "label": "Verificar fonte de alimentação / PoE",
+      "checked": false,
+      "icon": "🔌",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0017-chk-1",
+      "label": "Testar portas RJ45 / SFP",
+      "checked": false,
+      "icon": "🔌",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0017-chk-2",
+      "label": "Verificar cabeamento estruturado",
+      "checked": false,
+      "icon": "🔌",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0017-chk-3",
+      "label": "Testar throughput e latência de rede",
+      "checked": false,
+      "icon": "🌐",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0017-chk-4",
+      "label": "Verificar firmware e configurações de VLAN",
+      "checked": false,
+      "icon": "⚙️",
+      "required": false,
+      "notes": ""
+    },
+    {
+      "id": "OS-0017-chk-5",
+      "label": "Testar Wi-Fi e SSIDs corporativos",
+      "checked": false,
+      "icon": "📶",
+      "required": false,
+      "notes": ""
+    }
+  ],
+  "OS-0018": [
+    {
+      "id": "OS-0018-chk-0",
+      "label": "Verificar fonte de alimentação / PoE",
+      "checked": false,
+      "icon": "🔌",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0018-chk-1",
+      "label": "Testar portas RJ45 / SFP",
+      "checked": false,
+      "icon": "🔌",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0018-chk-2",
+      "label": "Verificar cabeamento estruturado",
+      "checked": false,
+      "icon": "🔌",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0018-chk-3",
+      "label": "Testar throughput e latência de rede",
+      "checked": false,
+      "icon": "🌐",
+      "required": true,
+      "notes": ""
+    },
+    {
+      "id": "OS-0018-chk-4",
+      "label": "Verificar firmware e configurações de VLAN",
+      "checked": false,
+      "icon": "⚙️",
+      "required": false,
+      "notes": ""
+    },
+    {
+      "id": "OS-0018-chk-5",
+      "label": "Testar Wi-Fi e SSIDs corporativos",
+      "checked": false,
+      "icon": "📶",
+      "required": false,
+      "notes": ""
+    }
+  ]
+}

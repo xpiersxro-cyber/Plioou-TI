@@ -1,0 +1,17 @@
+{
+  "98a25b534349ebc735b18cbe07ae1d4bc18ab305f8a1ee43": {
+    "osId": "OS-0016",
+    "signerName": "Mariana Duarte",
+    "signerRole": "Diretora de Operações",
+    "expiresAt": 1793296262932,
+    "createdAt": "2026-10-22T17:51:02.932Z",
+    "used": true
+  },
+  "40d773d778fffd4e50fa34330290d32a9c062bc515cd19ac": {
+    "osId": "OS-0018",
+    "signerName": "Juliana Costa",
+    "expiresAt": 1793296262954,
+    "createdAt": "2026-10-22T17:51:02.954Z",
+    "used": true
+  }
+}

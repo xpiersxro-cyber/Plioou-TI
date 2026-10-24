@@ -1,0 +1,8 @@
+{
+  "name": "Gestão de TI",
+  "description": "Sistema de Ordem de Serviço para TI com dashboard admin/técnico, notificações em tempo real, logs e gestão completa de OS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
